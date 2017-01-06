@@ -2,9 +2,12 @@
 *.swp
 tags
 cscope.out
+config.log
+PicoDrive
 PicoDrive.map
 config.mak
 config.log
+platform/opendingux/data/PicoDrive
 cpu/musashi/m68kmake
 cpu/musashi/m68kops.c
 cpu/musashi/m68kops.h
