@@ -276,8 +276,8 @@ void plat_init(void)
 
 	SDL_WM_SetCaption("PicoDrive " VERSION, NULL);
 
-	g_menuscreen_w = plat_sdl_screen->w;
-	g_menuscreen_h = plat_sdl_screen->h;
+	g_menuscreen_w = 320;
+	g_menuscreen_h = 240;
 	g_menuscreen_pp = g_menuscreen_w;
 	g_menuscreen_ptr = NULL;
 
